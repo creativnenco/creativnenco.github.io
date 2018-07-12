@@ -11594,7 +11594,34 @@ var Modal = function ($) {
 
 
 
+		$(document).ready(function() {
+//			$("body").css("display", "none");
 
+			$("body").fadeIn(2000);
+
+			$(".transition").click(function(event) {
+				event.preventDefault();
+				linkLocation = this.href;
+				$("body").fadeOut(1000, redirectPage);
+			});
+
+			function redirectPage() {
+				window.location = linkLocation;
+			}
+		});
+
+//$(document).ready(function(){
+//  var body = $("body");
+//  body.fadeIn(2000);
+//  $(document).on("click", "a:not([href^='#']):not([href^='tel']):not([href^='mailto'])", function(e) {
+//  e.preventDefault();
+//  $("body").fadeOut(400);
+//  var self = this;
+//  setTimeout(function () {
+//    window.location.href = $(self).attr("href");
+//  }, 400);
+//  });
+//});
 
 
 $("#toggle").click(function() {
@@ -11811,38 +11838,38 @@ $('.carousel-left').carousel({
         return this;
     };
 })(jQuery);
-
-		var WuBook = new _WuBook(1213394817);
-		var wbparams = {
-			bordercolor: '#72133200',
-			lang: '',
-			buttoncolor: '#721332;',
-			failback_lang: 'en',
-			wbgoogle: 1,
+//
+//		var WuBook = new _WuBook(1213394817);
+//		var wbparams = {
+//			bordercolor: '#72133200',
+//			lang: '',
+//			buttoncolor: '#721332;',
+//			failback_lang: 'en',
+//			wbgoogle: 1,
+////			bgcolor: '#8e494900',
+//			bgcolor: 'rgba(0, 0, 0, 0.79)',
+//
+//			dcodeval: '',
+//			iconcolor: '#888888',
+//			textcolor: '#ffffff',
+//			default_nights: 24,
+//			listtypebb: '#ffffff'
+//		};
+//		WuBook.design_rwidget("_wbords_", wbparams);
+//
+//
+//		var WuBook = new _WuBook(1213394817);
+//		var wbparams = {
+//			bordercolor: '#72133200',
+//			lang: '',
+//			buttoncolor: '#721332;',
+//			failback_lang: 'en',
+//			wbgoogle: 1,
 //			bgcolor: '#8e494900',
-			bgcolor: 'rgba(0, 0, 0, 0.79)',
-
-			dcodeval: '',
-			iconcolor: '#888888',
-			textcolor: '#ffffff',
-			default_nights: 24,
-			listtypebb: '#ffffff'
-		};
-		WuBook.design_rwidget("_wbords_", wbparams);
-
-
-		var WuBook = new _WuBook(1213394817);
-		var wbparams = {
-			bordercolor: '#72133200',
-			lang: '',
-			buttoncolor: '#721332;',
-			failback_lang: 'en',
-			wbgoogle: 1,
-			bgcolor: '#8e494900',
-			dcodeval: '',
-			iconcolor: '#888888',
-			textcolor: '#ffffff',
-			default_nights: 24,
-			listtypebb: '#ffffff'
-		};
-		WuBook.design_rwidget("_wbord_", wbparams);
+//			dcodeval: '',
+//			iconcolor: '#888888',
+//			textcolor: '#ffffff',
+//			default_nights: 24,
+//			listtypebb: '#ffffff'
+//		};
+//		WuBook.design_rwidget("_wbord_", wbparams);

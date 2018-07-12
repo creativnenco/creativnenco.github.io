@@ -43,6 +43,8 @@ html {
     -ms-text-size-adjust: 100%;
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-image: url(../i/bg_patern.png);
+    background-repeat: repeat;
 }
 
 @-ms-viewport {
@@ -5697,6 +5699,10 @@ mark,
     .modal-lg {
         max-width: 800px;
     }
+}
+
+body {
+    display: none;
 }
 
 section {

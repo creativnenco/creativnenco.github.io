@@ -1,4 +1,4 @@
- class="transition"
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,7 +46,7 @@
 				<div class="col-8 col-md-9 m-auto">
 					<div class="row no-gutters">
 						<div class="col-md-4 text-center text-md-left my-3">
-							<a href="index.html">
+							<a class="transition" href="index.html">
 								<div class="logo">bentley</div>
 							</a>
 							<p class="logo_description text-warning">Элитный отель в сердце столицы</p>
@@ -88,12 +88,14 @@
 				<div class="titel_footer"></div>
 			</div>
 			<div class="col-10 m-auto">
-				<script src="https://wubook.net/js/wblib.jgz"></script>
+<!--				<script src="https://wubook.net/js/wblib.jgz"></script>-->
+<!--
 				<div id="_wbord_">
 					<a href="http://ru.wubook.net/" style="display: block; margin-top: 5px; text-decoration:none;border:none" target="_blank">
 
   </a>
 				</div>
+-->
 			</div>
 
 		</div>
@@ -109,11 +111,11 @@
 				</div>
 				<div class="col-7">
 					<ul class="footer_menu">
-						<li><a href="">Отель</a></li>
-						<li><a href="">Ресторан</a></li>
-						<li><a href="">Номера</a></li>
-						<li><a href="">Москва</a></li>
-						<li><a href="">Контакты</a></li>
+				<li><a class="transition" href="about_us.html">o нac</a></li>
+				<li><a class="transition" href="hotel.html">номера</a></li>
+				<li><a class="transition" href="restoran.html">рестатран</a></li>
+				<li><a class="transition" href="moskov.html">москва</a></li>
+				<li><a class="transition" href="contacts.html">контакты</a></li>
 					</ul>
 				</div>
 				<div class="col-2 socgrid">
@@ -128,6 +130,26 @@
 		</div>
 	</footer>
 	<script src="assets/js/main.js"></script>
+<!--
+		<script>
+		$(document).ready(function() {
+			$("body").css("display", "none");
+
+			$("body").fadeIn(2000);
+
+			$(".transition").click(function(event) {
+				event.preventDefault();
+				linkLocation = this.href;
+				$("body").fadeOut(1000, redirectPage);
+			});
+
+			function redirectPage() {
+				window.location = linkLocation;
+			}
+		});
+
+	</script>
+-->
 </body>
 
 </html>
