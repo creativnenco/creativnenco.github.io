@@ -7,6 +7,7 @@
 	<!-- Useful meta tags -->
 	<link rel="stylesheet" href="assets/css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.css">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="robots" content="index, follow, noodp">
@@ -21,61 +22,237 @@
 	<nav id="menu">
 		<div class="container">
 			<ul>
-				<li><a href="about_us.html">o нac</a></li>
-				<li><a href="hotel.html">номера</a></li>
-				<li><a href="restoran.html">рестатран</a></li>
-				<li><a href="moskov.html">москва</a></li>
-				<li><a href="contacts.html">контакты</a></li>
+				<li><a class="transition" href="about_us.html">o нac</a></li>
+				<li><a class="transition" href="hotel.html">номера</a></li>
+				<li><a class="transition" href="restoran.html">рестатран</a></li>
+				<li><a class="transition" href="moskov.html">москва</a></li>
+				<li><a class="transition" href="contacts.html">контакты</a></li>
 			</ul>
 		</div>
 	</nav>
 
 	<header class="top_panel">
-		<div class="btn_menu d-flex align-items-center">
-			<span class="btn_menu_titel text-warning">меню</span>
-			<div id="toggle">
-				<div class="one"></div>
-				<div class="two"></div>
-				<div class="three"></div>
-			</div>
-		</div>
-		<div class="container pr-0 pl-0">
-			<div class="d-flex flex-wrap justify-content-lg-between justify-content-center">
 
-				<div class="top_panel_inner_L d-flex flex-column flex-sm-row  flex-grow-2 align-items-center justify-content-between">
-					<a href="#">
-						<div class="logo">bentley</div>
-					</a>
-					<div class="delimiter"> </div>
-					<p class="logo_description text-warning">Элитный отель<br> в сердце столицы</p>
-				</div>
-
-				<div class="top_panel_inner_R d-flex flex-grow-2 align-items-center justify-content-between">
-					<div class="min_price text-white">номера от 3400 рублей</div>
-					<div class="button_red">
-						<a href="#">Забранировать</a>
+		<div class="container-fluid">
+			<div class="row align-items-md-center">
+				<div class="col-2 col-md-1 btn_menu">
+					<span class="btn_menu_titel text-warning">меню</span>
+					<div id="toggle">
+						<div class="one"></div>
+						<div class="two"></div>
+						<div class="three"></div>
 					</div>
-					<ul class="list_leng">
-						<li><a href="#">ru<i class="fas fa-angle-down"></i></a>
-							<ul class="inner_list_leng">
-								<li><a href="#">en</a></li>
-								<li><a href="#">fr</a></li>
-							</ul>
-						</li>
-					</ul>
 				</div>
+				<div class="col-8 col-md-9 m-auto">
+					<div class="row no-gutters">
+						<div class="col-md-4 text-center text-md-left my-3">
+							<a href="index.html">
+								<div class="logo">bentley</div>
+							</a>
+							<p class="logo_description text-warning">Элитный отель в сердце столицы</p>
+						</div>
+						<!--						<div class="delimiter"> </div>-->
+						<div class="col-md-4 text-center  d-flex">
+							<a class="sale" href="#">Акции и предложения</a>
+						</div>
+						<!--						<div class="delimiter"> </div>-->
+						<div class="col-md-4 text-center text-md-right my-3 ">
 
+							<div class="min_price text-white">номера от 3400 рублей</div>
+							<div class="d-flex justify-content-center justify-content-md-end">
+								<a class="button_red" href="woo_book.html" target="blank">Забронировать</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<ul class="col-2 col-md-1 list_leng">
+					<li><a href="#">ru<i class="fas fa-angle-down"></i></a>
+						<ul class="inner_list_leng">
+							<li><a href="#">en</a></li>
+							<li><a href="#">fr</a></li>
+						</ul>
+					</li>
+				</ul>
 			</div>
 		</div>
+
 	</header>
+	<section class="head_page bg_head_Restaurant">
+		<div class="container">
+			<div class="row justify-content-center flex-column align-items-center">
+				<div class="col-sm-6 col-md-6 col-lg-4 col-8"><img src="assets/i/home_head_logo_top.png" alt=""></div>
+				<h1 class="page_head_titel col-12">ресторан</h1>
+				<div class="col-sm-6 col-md-6 col-lg-4 col-8"><img src="assets/i/home_head_logo_bottom.png" alt=""></div>
+			</div>
 
+		</div>
 
-		<!--	woobook_widget-->
+	</section>
+	<section class="about_restaurant">
+		<div class="container">
+			<div class="row">
+
+				<article class="col-12 col-md-6 m-auto">
+					<div class="titel_wrap">
+						<div class="titel_head"></div>
+						<h2 class="titel_2">наши услуги</h2>
+						<div class="titel_footer"></div>
+					</div>
+					<p>в отеле"Бентлей" располагается уютный ресторан в американском стиле, в котором Вам предложат большие бургеры из сочной говядины, супы, салаты, сэндвичи, сочные стейки и десерты.</p>
+					<p>в отеле"Бентлей" располагается уютный ресторан в американском стиле, в котором Вам предложат большие бургеры из сочной говядины, супы, салаты, сэндвичи, сочные стейки и десерты.</p>
+				</article>
+			</div>
+		</div>
+
+	</section>
+	<section class="baner_rest baner_rest_bg_1">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-12 col-md-10 m-auto">
+					<div class="titel_wrap">
+						<div class="titel_head"></div>
+						<h4 class="text-center">В качестве комплимента всем постояльцам отеля Bentley предлагается завтрак.</h4>
+						<div class="titel_footer"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<section class="breakfast_menu">
+		<div class="container">
+			<!--			<div class="row">-->
+
+			<div class="col-12 col-md-7 col-lg-6 m-auto">
+				<div class="titel_wrap">
+					<div class="titel_head"></div>
+					<h2 class="titel_2">меню завтраков</h2>
+					<div class="titel_footer"></div>
+				</div>
+				<h6 class="text-center">Три блюда и один напиток на выбор</h6>
+				<div class="number_menu text-center">#1</div>
+				<ul>
+					<li>
+						<p>Овсяная каша</p> <span class="lux"><i class="fas fa-crown"></i>delux</span></li>
+					<li>“Frendys” каша <span class="lux"><i class="fas fa-crown"></i>delux</span></li>
+					<li>Мюсли с молоком <span class="lux"><i class="fas fa-crown"></i>delux</span></li>
+					<li>
+						<p>Кукурузные хлопья с молоком</p> <span class="lux"><i class="fas fa-crown"></i>delux</span></li>
+				</ul>
+				<div class="number_menu text-center">#2</div>
+				<ul>
+					<li>Итальянский омлет <span class="lux"><i class="fas fa-crown"></i>delux</span></li>
+					<li>Яичница с колбасой <span class="lux"><i class="fas fa-crown"></i>delux</span></li>
+					<li>Скрембл <span class="lux"><i class="fas fa-crown"></i>delux</span></li>
+				</ul>
+				<div class="number_menu text-center">#3</div>
+				<ul>
+					<li>Панкейки с рисовым сиропом <span class="lux"><i class="fas fa-crown"></i>delux</span></li>
+					<li>Блины со сметаной <span class="lux"><i class="fas fa-crown"></i>delux</span></li>
+					<li>Бельгийские вафли <span class="lux"><i class="fas fa-crown"></i>delux</span></li>
+					<li>Йогурт <span class="lux"><i class="fas fa-crown"></i>delux</span></li>
+				</ul>
+				<div class="number_menu text-center">Напитки</div>
+				<ul>
+					<li>Чай черный <span class="lux"><i class="fas fa-crown"></i>delux</span></li>
+					<li>Кофе нефильтрованный <span class="lux"><i class="fas fa-crown"></i>delux</span></li>
+					<li>Сок апельсиновый <span class="lux"><i class="fas fa-crown"></i>delux</span></li>
+					<li>Сок Яблочный <span class="lux"><i class="fas fa-crown"></i>delux</span></li>
+				</ul>
+			</div>
+			<!--			</div>-->
+		</div>
+	</section>
+	<section class="baner_rest baner_rest_bg_2">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-12 col-md-10 m-auto">
+					<div class="titel_wrap">
+						<div class="titel_head"></div>
+						<h4 class="text-center">Составлением меню ресторана занимался американский шеф-повар, который закончил два престижных кулинарных института в Нью-Йорке: Институт Французской Кулинарии и Институт Американской Кулинарии.</h4>
+						<div class="titel_footer"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!-- 	gallire-->
+	<section class="about_gallire">
+		<div class="container">
+			<div class="titel_wrap">
+				<div class="titel_head"></div>
+				<h2 class="titel_2">галерея</h2>
+				<div class="titel_footer"></div>
+			</div>
+
+			<div class="row">
+				<figure class="col-md-4 thumb">
+					<a data-fancybox="images" href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(145).jpg" alt="placeholder" class="img-fluid">
+                </a>
+				</figure>
+
+				<figure class="col-md-4 thumb">
+					<a data-fancybox="images" href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(150).jpg" alt="placeholder" class="img-fluid" />
+                </a>
+				</figure>
+
+				<figure class="col-md-4 thumb">
+					<a data-fancybox="images" href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(152).jpg" alt="placeholder" class="img-fluid" />
+                </a>
+				</figure>
+				<figure class="col-md-4 thumb">
+					<a data-fancybox="images" href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(145).jpg" alt="placeholder" class="img-fluid">
+                </a>
+				</figure>
+
+				<figure class="col-md-4 thumb">
+					<a data-fancybox="images" href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(150).jpg" alt="placeholder" class="img-fluid" />
+                </a>
+				</figure>
+
+				<figure class="col-md-4 thumb">
+					<a data-fancybox="images" href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(152).jpg" alt="placeholder" class="img-fluid" />
+                </a>
+				</figure>
+				<figure class="col-md-4 thumb">
+					<a data-fancybox="images" href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(145).jpg" alt="placeholder" class="img-fluid">
+                </a>
+				</figure>
+
+				<figure class="col-md-4 thumb">
+					<a data-fancybox="images" href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(150).jpg" alt="placeholder" class="img-fluid" />
+                </a>
+				</figure>
+
+				<figure class="col-md-4 thumb">
+					<a data-fancybox="images" href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(152).jpg" alt="placeholder" class="img-fluid" />
+                </a>
+				</figure>
+			</div>
+
+		</div>
+	</section>
+	<!--/	gallire-->
+	<!--	woobook_widget-->
+
 	<section class="woobook_widget">
 		<div class="container">
 			<div class="titel_wrap">
 				<div class="titel_head"></div>
-				<h2 class="titel_2">о нас</h2>
+				<h2 class="titel_2">забронировать</h2>
 				<div class="titel_footer"></div>
 			</div>
 			<div class="col-10 m-auto">
@@ -92,32 +269,34 @@
 	<!--/	woobook_widget-->
 	<footer class="footer">
 		<div class="container">
-			<div class="row mb-5 align-items-center">
-				<div class="col-3">
+			<div class="row mb-5 align-items-md-center">
+				<div class="col-10 col-lg-3 m-auto ">
 					<a href="#">
 						<div class="logo">bentley</div>
 					</a>
 				</div>
-				<div class="col-7">
+				<div class="col-10 col-lg-7 m-auto ">
 					<ul class="footer_menu">
-						<li><a href="">Отель</a></li>
-						<li><a href="">Ресторан</a></li>
-						<li><a href="">Номера</a></li>
-						<li><a href="">Москва</a></li>
-						<li><a href="">Контакты</a></li>
+						<li><a class="transition" href="about_us.html">Отель</a></li>
+						<li><a class="transition" href="hotel.html">Номера</a></li>
+						<li><a class="transition" href="restoran.html">Ресторан</a></li>
+						<li><a class="transition" href="moskov.html">Москва</a></li>
+						<li><a class="transition" href="contacts.html">Контакты</a></li>
 					</ul>
 				</div>
-				<div class="col-2 socgrid">
+				<div class="col-10 col-lg-2 m-auto  socgrid">
 					<a href=""><i class="fab fa-vk"></i></a>
 					<a href=""><i class="fab fa-facebook-f"></i></a>
 					<a href=""><i class="fab fa-instagram"></i></a>
 				</div>
 			</div>
 			<div class="row mt-5">
-			<div class="col "><i class="far fa-copyright"></i> Bentley Hotel, 2018. All rights are reserved.</div>
+				<div class="col-10 rights"><i class="far fa-copyright"></i> Bentley Hotel, 2018. All rights are reserved.</div>
 			</div>
 		</div>
 	</footer>
 	<script src="assets/js/main.js"></script>
-	</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.js"></script>
+</body>
+
 </html>

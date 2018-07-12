@@ -20,91 +20,120 @@
 
 </head>
 <body>
+	<nav id="menu">
+		<div class="container">
+			<ul>
+				<li><a class="transition" href="about_us.html">o нac</a></li>
+				<li><a class="transition" href="hotel.html">номера</a></li>
+				<li><a class="transition" href="restoran.html">рестатран</a></li>
+				<li><a class="transition" href="moskov.html">москва</a></li>
+				<li><a class="transition" href="contacts.html">контакты</a></li>
+			</ul>
+		</div>
+	</nav>
 
-<div id="woo_block">
+	<header class="top_panel">
 
- <div id="_wbord1_">
-  <a href="http://en.zak.wubook.net">
-	</a>
-	<script>
-  var WuBook= new _WuBook(1213394817);
-//  var wbparams= {
-//    lang: '',
-//    layout: '',
-//    mobile: 1,
-//    height: 'auto',
-//    width: '100%',
-//    default_nights: 1,
-//    mheight:'auto'
-//  };
-//  WuBook.design_iframe("_wbord1_", wbparams);
+		<div class="container-fluid">
+			<div class="row align-items-md-center">
+				<div class="col-2 col-md-1 btn_menu">
+					<span class="btn_menu_titel text-warning">меню</span>
+					<div id="toggle">
+						<div class="one"></div>
+						<div class="two"></div>
+						<div class="three"></div>
+					</div>
+				</div>
+				<div class="col-8 col-md-9 m-auto">
+					<div class="row no-gutters">
+						<div class="col-md-4 text-center text-md-left my-3">
+							<a href="index.html">
+								<div class="logo">bentley</div>
+							</a>
+							<p class="logo_description text-warning">Элитный отель в сердце столицы</p>
+						</div>
+						<!--						<div class="delimiter"> </div>-->
+						<div class="col-md-4 text-center  d-flex">
+							<a class="sale" href="#">Акции и предложения</a>
+						</div>
+						<!--						<div class="delimiter"> </div>-->
+						<div class="col-md-4 text-center text-md-right my-3 ">
 
-var params= {
- bordercolor: '#108dbd',
- lang: '',
- buttoncolor: '#108dbd',
- failback_lang: 'en',
- wbgoogle: 1,
- bgcolor: '#ffffff',
- iconcolor: '#888888',
- textcolor: '#2c2c2c',
- default_nights: 3
-};
-WuBook.design_rwidget('_wbord1_', params, function() {alert('widget is deployed');});
-</script>
+							<div class="min_price text-white">номера от 3400 рублей</div>
+							<div class="d-flex justify-content-center justify-content-md-end">
+								<a class="button_red" href="woo_book.html" target="blank">Забранировать</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<ul class="col-2 col-md-1 list_leng">
+					<li><a href="#">ru<i class="fas fa-angle-down"></i></a>
+						<ul class="inner_list_leng">
+							<li><a href="#">en</a></li>
+							<li><a href="#">fr</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</header>
+<section class="wubook_page">
+
+<script src="https://wubook.net/js/wblib.jgz"></script>
+<!--
+
+<div id="wubook_page">
+  <a href="http://en.wubook.net/services/booking-engine/" style="display: block; margin-top: 5px; text-decoration:none;border:none" target="_blank">
+
+  </a>
 </div>
 
- <div id="_wbord2_">
-  <a href="http://en.zak.wubook.net">
-	</a>
-	</div>
-<script>
-var WuBook= new _WuBook(1213394817);
-var wbparams= {
-  fixedPosition: 0,
-  ditextcolor: '#ffffff',
-  avgcolor: '#988454',
-  textcolorbb: '#ffffff',
-  plusperc: 5,
-  listtypebb: '#ffffff',
-  rpkgs: '',
-  barbackground: 'rgb(0, 0, 0)',
-  textcolorpk: '#988454',
-  default_nights: 3,
-  textcolorcalendarbe: '#988454',
-  bordercolor: '#988454',
-  blocks: 'be,fe,bb,di',
-  failback_lang: 'en',
-  hdcode: '',
-  textcolorbuttonbe: '#ffffff',
-  avgtextcolor: '#ffffff',
-  lang: '',
-  buttoncolorbe: '#1c375b',
-  dibuttoncolor: '#008000',
-  wbgoogle: 1,
-  bgblocks: '#000000',
-  cmsgs: 'MSwyLDM=',
-  textcolornightspk: '#ffffff',
-  adchi: 1
-};
-WuBook.design_bwidget("_wbord2_", wbparams);
-</script>
-
-<!-- The widget will be placed here -->
-<div id="_wbordpkgs_"><a href="http://wubook.net/">Booking by Wu</a></div>
-<!-- The script which will deploy the widget -->
 <script>
   var WuBook= new _WuBook(1213394817);
-  var pkgs = new Array();
-  pkgs.push(25);
-  pkgs.push(323);
   var wbparams= {
-      'pkgs': pkgs,
+    lang: '',
+    layout: '',
+    mobile: 0,
+    height: 'auto',
+    width: '100%',
+    default_nights: 1,
+    mheight: 840
   };
-  WuBook.design_pwidget("_wbordpkgs_", wbparams);
+  WuBook.design_iframe("wubook_page", wbparams);
 </script>
-<a href="https://wubook.net/wbkd/wbk/?lcode=1402584731">cccccc</a>
-</div>
+-->
 
+</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row mb-5 align-items-center">
+				<div class="col-3">
+					<a href="#">
+						<div class="logo">bentley</div>
+					</a>
+				</div>
+				<div class="col-7">
+					<ul class="footer_menu">
+						<li><a class="transition" href="">Отель</a></li>
+						<li><a class="transition" href="">Ресторан</a></li>
+						<li><a class="transition" href="">Номера</a></li>
+						<li><a class="transition" href="">Москва</a></li>
+						<li><a class="transition" href="">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="col-2 socgrid">
+					<a href=""><i class="fab fa-vk"></i></a>
+					<a href=""><i class="fab fa-facebook-f"></i></a>
+					<a href=""><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col "><i class="far fa-copyright"></i> Bentley Hotel, 2018. All rights are reserved.</div>
+			</div>
+		</div>
+	</footer>
+	<script src="assets/js/main.js"></script> class="transition"
 </body>
 </html>

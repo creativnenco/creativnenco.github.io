@@ -11596,6 +11596,7 @@ var Modal = function ($) {
 
 
 
+
 $("#toggle").click(function() {
   		$(this).toggleClass("on");
 		});
