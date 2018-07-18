@@ -21,6 +21,8 @@
 </head>
 
 <body>
+	<div id = "barba-wrapper" >
+  <div class = "barba-container" >
 	<nav id="menu">
 		<div class="container">
 			<ul>
@@ -80,6 +82,7 @@
 		</div>
 
 	</header>
+
 	<section class="head_page bg_head_about">
 		<div class="container">
 			<div class="row justify-content-center flex-column align-items-center">
@@ -101,9 +104,17 @@
 
 				<div class="img_wrap">
 					<img src="/assets/i/histori_hotel.jpg" class="img-fluid" alt="Responsive image">
-					<div class="overlay_img">
-						<img src="/assets/i/frame_about.png" class="img-fluid" alt="Responsive image">
-					</div>
+				<div class="frame_img" id="frame_img">
+					<div class="border_angle border_angle_top"></div>
+					<div class="border_angle border_angle_bottom"></div>
+					<div class="border_angle border_angle_left"></div>
+					<div class="border_angle border_angle_right"></div>
+					<div class="angle_frame angle_t_l"><img src="../assets/i/angle.png" alt=""></div>
+					<div class="angle_frame angle_t_r"><img src="../assets/i/angle.png" alt=""></div>
+					<div class="angle_frame angle_b_l"><img src="../assets/i/angle.png" alt=""></div>
+					<div class="angle_frame angle_b_r"><img src="../assets/i/angle.png" alt=""></div>
+
+				</div>
 				</div>
 
 				<p>Гостиница Бентлей располагается в центре Москвы на улице Покровка, одной из старейших улиц города, в особняке начала 19 века.</p>
@@ -126,12 +137,20 @@
 				<iframe src="https://www.google.com/maps/embed?pb=!4v1531146637442!6m8!1m7!1sCAoSLEFGMVFpcFAxaWYzV2tEaHdidzRVLXVCdlVZSVpWelFKZDFkZWJTUl9wMVpt!2m2!1d55.76019921945259!2d37.64951982883599!3f53.991619315568514!4f-9.002654330381375!5f0.7820865974627469" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen>
 				</iframe>
 				<div class="frame_img" id="frame_img">
+					<div class="border_angle border_angle_top"></div>
+					<div class="border_angle border_angle_bottom"></div>
+					<div class="border_angle border_angle_left"></div>
+					<div class="border_angle border_angle_right"></div>
 					<div class="angle_frame angle_t_l"><img src="../assets/i/angle.png" alt=""></div>
 					<div class="angle_frame angle_t_r"><img src="../assets/i/angle.png" alt=""></div>
 					<div class="angle_frame angle_b_l"><img src="../assets/i/angle.png" alt=""></div>
 					<div class="angle_frame angle_b_r"><img src="../assets/i/angle.png" alt=""></div>
-					<div class="btn_tyr click" id="click"></div>
+					<div class="baner_3D off" id="baner_3D">
+						<span class="baner_3D_title">осматрется</span>
+					</div>
 				</div>
+				<div class="btn_tyr click" id="click"></div>
+
 			</div>
 		</div>
 	</section>
@@ -288,27 +307,9 @@
 			</div>
 		</div>
 	</footer>
+	</div></div>
 	<script src="assets/js/main.js"></script>
-<!--
-		<script>
-		$(document).ready(function() {
-			$("body").css("display", "none");
 
-			$("body").fadeIn(2000);
-
-			$("a.transition").click(function(event) {
-				event.preventDefault();
-				linkLocation = this.href;
-				$("body").fadeOut(1000, redirectPage);
-			});
-
-			function redirectPage() {
-				window.location = linkLocation;
-			}
-		});
-
-	</script>
--->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.js"></script>
 </body>
 

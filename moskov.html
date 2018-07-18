@@ -18,6 +18,8 @@
 </head>
 
 <body>
+	<div id="barba-wrapper">
+		<div class="barba-container">
 	<nav id="menu">
 		<div class="container">
 			<ul>
@@ -112,8 +114,16 @@
 
 				<div class="img_wrap">
 					<img src="/assets/i/histori_hotel.jpg" class="img-fluid" alt="Responsive image">
-					<div class="overlay_img">
-						<img src="/assets/i/frame_about.png" class="img-fluid" alt="Responsive image">
+					<div class="frame_img" id="frame_img">
+						<div class="border_angle border_angle_top"></div>
+						<div class="border_angle border_angle_bottom"></div>
+						<div class="border_angle border_angle_left"></div>
+						<div class="border_angle border_angle_right"></div>
+						<div class="angle_frame angle_t_l"><img src="../assets/i/angle.png" alt=""></div>
+						<div class="angle_frame angle_t_r"><img src="../assets/i/angle.png" alt=""></div>
+						<div class="angle_frame angle_b_l"><img src="../assets/i/angle.png" alt=""></div>
+						<div class="angle_frame angle_b_r"><img src="../assets/i/angle.png" alt=""></div>
+
 					</div>
 				</div>
 
@@ -174,27 +184,10 @@
 			</div>
 		</div>
 	</footer>
+	</div>
+	</div>
 	<script src="assets/js/main.js"></script>
-<!--
-	<script>
-		$(document).ready(function() {
-			$("body").css("display", "none");
 
-			$("body").fadeIn(2000);
-
-			$("a.transition").click(function(event) {
-				event.preventDefault();
-				linkLocation = this.href;
-				$("body").fadeOut(1000, redirectPage);
-			});
-
-			function redirectPage() {
-				window.location = linkLocation;
-			}
-		});
-
-	</script>
--->
 </body>
 
 </html>
