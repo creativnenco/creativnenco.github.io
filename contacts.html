@@ -3,8 +3,6 @@
 
 <head>
 	<meta charset="UTF-8">
-
-	<!-- Useful meta tags -->
 	<link rel="stylesheet" href="assets/css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
@@ -15,30 +13,27 @@
 	<meta name="format-detection" content="telephone=no">
 	<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	<title>bentley</title>
-
+	<title>контакты</title>
 </head>
 
 <body>
-		<div id="barba-wrapper">
-		<div class="barba-container">
 	<nav id="menu">
 		<div class="container">
 			<ul>
+				<li><a class="transition" href="index.html">главная</a></li>
 				<li><a class="transition" href="about_us.html">o нac</a></li>
 				<li><a class="transition" href="hotel.html">номера</a></li>
-				<li><a class="transition" href="moskov.html">рестатран</a></li>
+				<li><a class="transition" href="restoran.html">рестатран</a></li>
 				<li><a class="transition" href="moskov.html">москва</a></li>
 				<li><a class="transition" href="contacts.html">контакты</a></li>
+				<li><a class="transition" href="contacts.html">Акции и предложения</a></li>
 			</ul>
 		</div>
 	</nav>
-
 	<header class="top_panel">
-
 		<div class="container-fluid">
 			<div class="row align-items-md-center">
-				<div class="col-2 col-md-1 btn_menu">
+				<div class="btn_menu">
 					<span class="btn_menu_titel text-warning">меню</span>
 					<div id="toggle">
 						<div class="one"></div>
@@ -46,30 +41,24 @@
 						<div class="three"></div>
 					</div>
 				</div>
-				<div class="col-8 col-md-9 m-auto">
-					<div class="row no-gutters">
-						<div class="col-md-4 text-center text-md-left my-3">
-							<a class="transition" href="index.html">
+				<div class="container">
+					<div class="row ">
+						<div class="col-12 col-sm-6 d-flex justify-content-center justify-content-sm-start align-items-center align-items-sm-start align-items-md-center flex-column flex-md-row my-3 ">
+							<a href="index.html">
 								<div class="logo">bentley</div>
 							</a>
-							<p class="logo_description text-warning">Элитный отель в сердце столицы</p>
+							<div class="delimiter"> </div>
+							<p class="logo_description text-warning text-center text-sm-left">Элитный отель в сердце столицы</p>
 						</div>
-						<!--						<div class="delimiter"> </div>-->
-						<div class="col-md-4 text-center  d-flex">
-							<a class="sale" href="#"></a>
-						</div>
-						<!--						<div class="delimiter"> </div>-->
-						<div class="col-md-4 text-center text-md-right my-3 ">
-
-							<div class="min_price text-white">номера от 3400 рублей</div>
-							<div class="d-flex justify-content-center justify-content-md-end">
-								<a class="button_red" href="woo_book.html" target="blank">Забранировать</a>
+						<div class="col-12 col-sm-6 d-flex justify-content-center justify-content-md-end align-items-center align-items-sm-end align-items-md-center flex-column flex-md-row my-3 ">
+							<div class="min_price text-white text-center text-md-right">номера от 3400 рублей</div>
+							<div class="d-flex justify-content-center justify-content-sm-end">
+								<a class="button_red" href="woo_book.html">Забранировать</a>
 							</div>
-
 						</div>
 					</div>
 				</div>
-				<ul class="col-2 col-md-1 list_leng">
+				<ul class="list_leng">
 					<li><a href="#">ru<i class="fas fa-angle-down"></i></a>
 						<ul class="inner_list_leng">
 							<li><a href="#">en</a></li>
@@ -79,18 +68,13 @@
 				</ul>
 			</div>
 		</div>
-
 	</header>
-
 	<section class="head_page bg_head_contacts">
 		<div class="container">
 			<div class="row justify-content-center flex-column align-items-center">
-				<div class="col-sm-6 col-md-6 col-lg-4 col-8"><img src="assets/i/home_head_logo_top.png" alt=""></div>
-				<h1 class="page_head_titel col-12">контакты</h1>
-				<div class="col-sm-6 col-md-6 col-lg-4 col-8"><img src="assets/i/home_head_logo_bottom.png" alt=""></div>
+				<h1 class="page_head_titel">контакты</h1>
 			</div>
 		</div>
-
 	</section>
 	<div class="container">
 		<div class="row">
@@ -112,7 +96,6 @@
 					</div>
 					<div class="titel_footer"></div>
 				</div>
-
 			</div>
 			<div class="col-md-4 col-12 ">
 				<div class="titel_wrap">
@@ -129,10 +112,8 @@
 		</div>
 	</div>
 	<div class="container-fluid G_map">
-
-		<div id="map"></div>
-
-		<script>
+<div id="map"></div>
+<script>
 			var map;
 
 			function initMap() {
@@ -142,242 +123,242 @@
 						lng: 37.64950909
 					},
 					zoom: 18,
-										styles: [{
-												"elementType": "geometry",
-												"stylers": [{
-													"color": "#f9f6f2"
-												}]
-											},
-											{
-												"elementType": "labels.text.fill",
-												"stylers": [{
-													"color": "#523735"
-												}]
-											},
-											{
-												"elementType": "labels.text.stroke",
-												"stylers": [{
-													"color": "#f5f1e6"
-												}]
-											},
-											{
-												"featureType": "administrative.land_parcel",
-												"elementType": "geometry.stroke",
-												"stylers": [{
-													"color": "#dcd2be"
-												}]
-											},
-											{
-												"featureType": "administrative.land_parcel",
-												"elementType": "labels.text.fill",
-												"stylers": [{
-													"color": "#ae9e90"
-												}]
-											},
-											{
-												"featureType": "administrative.neighborhood",
-												"elementType": "geometry.fill",
-												"stylers": [{
-													"color": "#e1ae59"
-												}]
-											},
-											{
-												"featureType": "landscape",
-												"elementType": "geometry.fill",
-												"stylers": [{
-													"color": "#f9f6f2"
-												}]
-											},
-											{
-												"featureType": "landscape.natural",
-												"elementType": "geometry",
-												"stylers": [{
-													"color": "#dfd2ae"
-												}]
-											},
-											{
-												"featureType": "landscape.natural",
-												"elementType": "geometry.fill",
-												"stylers": [{
-													"color": "#e1ae59"
-												}]
-											},
-											{
-												"featureType": "landscape.natural.landcover",
-												"elementType": "geometry.fill",
-												"stylers": [{
-													"color": "#d3bc9e"
-												}]
-											},
-											{
-												"featureType": "landscape.natural.terrain",
-												"elementType": "geometry.fill",
-												"stylers": [{
-													"color": "#d3bc9e"
-												}]
-											},
-											{
-												"featureType": "poi",
-												"elementType": "geometry",
-												"stylers": [{
-													"color": "#dfd2ae"
-												}]
-											},
-											{
-												"featureType": "poi",
-												"elementType": "geometry.fill",
-												"stylers": [{
-													"color": "#ddcbb3"
-												}]
-											},
-											{
-												"featureType": "poi",
-												"elementType": "labels.text.fill",
-												"stylers": [{
-													"color": "#93817c"
-												}]
-											},
-											{
-												"featureType": "poi.park",
-												"elementType": "geometry.fill",
-												"stylers": [{
-													"color": "#ddcbb3"
-												}]
-											},
-											{
-												"featureType": "poi.park",
-												"elementType": "labels.text.fill",
-												"stylers": [{
-													"color": "#447530"
-												}]
-											},
-											{
-												"featureType": "road",
-												"elementType": "geometry",
-												"stylers": [{
-													"color": "#f5f1e6"
-												}]
-											},
-											{
-												"featureType": "road",
-												"elementType": "geometry.stroke",
-												"stylers": [{
-													"color": "#ddcbb3"
-												}]
-											},
-											{
-												"featureType": "road.arterial",
-												"elementType": "geometry",
-												"stylers": [{
-													"color": "#fdfcf8"
-												}]
-											},
-											{
-												"featureType": "road.arterial",
-												"elementType": "geometry.stroke",
-												"stylers": [{
-													"color": "#ddcbb3"
-												}]
-											},
-											{
-												"featureType": "road.highway",
-												"elementType": "geometry",
-												"stylers": [{
-													"color": "#f8c967"
-												}]
-											},
-											{
-												"featureType": "road.highway",
-												"elementType": "geometry.stroke",
-												"stylers": [{
-													"color": "#ddcbb3"
-												}]
-											},
-											{
-												"featureType": "road.highway.controlled_access",
-												"elementType": "geometry",
-												"stylers": [{
-													"color": "#e98d58"
-												}]
-											},
-											{
-												"featureType": "road.highway.controlled_access",
-												"elementType": "geometry.stroke",
-												"stylers": [{
-													"color": "#ddcbb3"
-												}]
-											},
-											{
-												"featureType": "road.local",
-												"elementType": "geometry.stroke",
-												"stylers": [{
-													"color": "#ddcbb3"
-												}]
-											},
-											{
-												"featureType": "road.local",
-												"elementType": "labels.text.fill",
-												"stylers": [{
-													"color": "#806b63"
-												}]
-											},
-											{
-												"featureType": "transit.line",
-												"elementType": "geometry",
-												"stylers": [{
-													"color": "#dfd2ae"
-												}]
-											},
-											{
-												"featureType": "transit.line",
-												"elementType": "geometry.stroke",
-												"stylers": [{
-													"color": "#ddcbb3"
-												}]
-											},
-											{
-												"featureType": "transit.line",
-												"elementType": "labels.text.fill",
-												"stylers": [{
-													"color": "#8f7d77"
-												}]
-											},
-											{
-												"featureType": "transit.line",
-												"elementType": "labels.text.stroke",
-												"stylers": [{
-													"color": "#ebe3cd"
-												}]
-											},
-											{
-												"featureType": "transit.station",
-												"elementType": "geometry",
-												"stylers": [{
-													"color": "#dfd2ae"
-												}]
-											},
-											{
-												"featureType": "transit.station.bus",
-												"elementType": "geometry.fill",
-												"stylers": [{
-													"color": "#ddcbb3"
-												}]
-											},
-											{
-												"featureType": "water",
-												"elementType": "geometry.fill",
-												"stylers": [{
-													"color": "#d3bc9e"
-												}]
-											},
-											{
-												"featureType": "water",
-												"elementType": "labels.text.fill",
-												"stylers": [{
-													"color": "#92998d"
-												}]
-											}
-										]
+					styles: [{
+							"elementType": "geometry",
+							"stylers": [{
+								"color": "#f9f6f2"
+							}]
+						},
+						{
+							"elementType": "labels.text.fill",
+							"stylers": [{
+								"color": "#523735"
+							}]
+						},
+						{
+							"elementType": "labels.text.stroke",
+							"stylers": [{
+								"color": "#f5f1e6"
+							}]
+						},
+						{
+							"featureType": "administrative.land_parcel",
+							"elementType": "geometry.stroke",
+							"stylers": [{
+								"color": "#dcd2be"
+							}]
+						},
+						{
+							"featureType": "administrative.land_parcel",
+							"elementType": "labels.text.fill",
+							"stylers": [{
+								"color": "#ae9e90"
+							}]
+						},
+						{
+							"featureType": "administrative.neighborhood",
+							"elementType": "geometry.fill",
+							"stylers": [{
+								"color": "#e1ae59"
+							}]
+						},
+						{
+							"featureType": "landscape",
+							"elementType": "geometry.fill",
+							"stylers": [{
+								"color": "#f9f6f2"
+							}]
+						},
+						{
+							"featureType": "landscape.natural",
+							"elementType": "geometry",
+							"stylers": [{
+								"color": "#dfd2ae"
+							}]
+						},
+						{
+							"featureType": "landscape.natural",
+							"elementType": "geometry.fill",
+							"stylers": [{
+								"color": "#e1ae59"
+							}]
+						},
+						{
+							"featureType": "landscape.natural.landcover",
+							"elementType": "geometry.fill",
+							"stylers": [{
+								"color": "#d3bc9e"
+							}]
+						},
+						{
+							"featureType": "landscape.natural.terrain",
+							"elementType": "geometry.fill",
+							"stylers": [{
+								"color": "#d3bc9e"
+							}]
+						},
+						{
+							"featureType": "poi",
+							"elementType": "geometry",
+							"stylers": [{
+								"color": "#dfd2ae"
+							}]
+						},
+						{
+							"featureType": "poi",
+							"elementType": "geometry.fill",
+							"stylers": [{
+								"color": "#ddcbb3"
+							}]
+						},
+						{
+							"featureType": "poi",
+							"elementType": "labels.text.fill",
+							"stylers": [{
+								"color": "#93817c"
+							}]
+						},
+						{
+							"featureType": "poi.park",
+							"elementType": "geometry.fill",
+							"stylers": [{
+								"color": "#ddcbb3"
+							}]
+						},
+						{
+							"featureType": "poi.park",
+							"elementType": "labels.text.fill",
+							"stylers": [{
+								"color": "#447530"
+							}]
+						},
+						{
+							"featureType": "road",
+							"elementType": "geometry",
+							"stylers": [{
+								"color": "#f5f1e6"
+							}]
+						},
+						{
+							"featureType": "road",
+							"elementType": "geometry.stroke",
+							"stylers": [{
+								"color": "#ddcbb3"
+							}]
+						},
+						{
+							"featureType": "road.arterial",
+							"elementType": "geometry",
+							"stylers": [{
+								"color": "#fdfcf8"
+							}]
+						},
+						{
+							"featureType": "road.arterial",
+							"elementType": "geometry.stroke",
+							"stylers": [{
+								"color": "#ddcbb3"
+							}]
+						},
+						{
+							"featureType": "road.highway",
+							"elementType": "geometry",
+							"stylers": [{
+								"color": "#f8c967"
+							}]
+						},
+						{
+							"featureType": "road.highway",
+							"elementType": "geometry.stroke",
+							"stylers": [{
+								"color": "#ddcbb3"
+							}]
+						},
+						{
+							"featureType": "road.highway.controlled_access",
+							"elementType": "geometry",
+							"stylers": [{
+								"color": "#e98d58"
+							}]
+						},
+						{
+							"featureType": "road.highway.controlled_access",
+							"elementType": "geometry.stroke",
+							"stylers": [{
+								"color": "#ddcbb3"
+							}]
+						},
+						{
+							"featureType": "road.local",
+							"elementType": "geometry.stroke",
+							"stylers": [{
+								"color": "#ddcbb3"
+							}]
+						},
+						{
+							"featureType": "road.local",
+							"elementType": "labels.text.fill",
+							"stylers": [{
+								"color": "#806b63"
+							}]
+						},
+						{
+							"featureType": "transit.line",
+							"elementType": "geometry",
+							"stylers": [{
+								"color": "#dfd2ae"
+							}]
+						},
+						{
+							"featureType": "transit.line",
+							"elementType": "geometry.stroke",
+							"stylers": [{
+								"color": "#ddcbb3"
+							}]
+						},
+						{
+							"featureType": "transit.line",
+							"elementType": "labels.text.fill",
+							"stylers": [{
+								"color": "#8f7d77"
+							}]
+						},
+						{
+							"featureType": "transit.line",
+							"elementType": "labels.text.stroke",
+							"stylers": [{
+								"color": "#ebe3cd"
+							}]
+						},
+						{
+							"featureType": "transit.station",
+							"elementType": "geometry",
+							"stylers": [{
+								"color": "#dfd2ae"
+							}]
+						},
+						{
+							"featureType": "transit.station.bus",
+							"elementType": "geometry.fill",
+							"stylers": [{
+								"color": "#ddcbb3"
+							}]
+						},
+						{
+							"featureType": "water",
+							"elementType": "geometry.fill",
+							"stylers": [{
+								"color": "#d3bc9e"
+							}]
+						},
+						{
+							"featureType": "water",
+							"elementType": "labels.text.fill",
+							"stylers": [{
+								"color": "#92998d"
+							}]
+						}
+					]
 				});
 
 				var image = 'assets/i/metka.png';
@@ -412,13 +393,11 @@
 					infowindow.open(map, beachMarker);
 				});
 			}
+
 		</script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQSwVRqurSIYvQKnJLaSMkAg9g51v22sg&callback=initMap" async defer></script>
-
-
-	</div>
-
-	<!--	woobook_widget-->
+</div>
+<!--	woobook_widget-->
 	<section class="woobook_widget">
 		<div class="container">
 			<div class="titel_wrap">
@@ -427,50 +406,44 @@
 				<div class="titel_footer"></div>
 			</div>
 			<div class="col-10 m-auto">
-
-<!--
-				<div id="_wbord_">
+<div id="_wbord_">
 					<a href="http://ru.wubook.net/" style="display: block; margin-top: 5px; text-decoration:none;border:none" target="_blank">
-
-  </a>
+</a>
 				</div>
--->
-			</div>
-
-		</div>
+</div>
+</div>
 	</section>
 	<!--/	woobook_widget-->
 	<footer class="footer">
 		<div class="container">
-			<div class="row mb-5 align-items-center">
-				<div class="col-3">
-					<a href="#">
+			<div class="row mb-5 align-items-md-center">
+				<div class="col-10 col-lg-3 m-auto ">
+					<a href="index.html">
 						<div class="logo">bentley</div>
 					</a>
 				</div>
-				<div class="col-7">
+				<div class="col-10 col-lg-7 m-auto ">
 					<ul class="footer_menu">
-				<li><a class="transition" href="about_us.html">o нac</a></li>
-				<li><a class="transition" href="hotel.html">номера</a></li>
-				<li><a class="transition" href="restoran.html">рестатран</a></li>
-				<li><a class="transition" href="moskov.html">москва</a></li>
-				<li><a class="transition" href="contacts.html">контакты</a></li>
+						<li><a class="transition" href="about_us.html">o нac</a></li>
+						<li><a class="transition" href="hotel.html">номера</a></li>
+						<li><a class="transition" href="restoran.html">рестатран</a></li>
+						<li><a class="transition" href="moskov.html">москва</a></li>
+						<li><a class="transition" href="contacts.html">контакты</a></li>
 					</ul>
 				</div>
-				<div class="col-2 socgrid">
-					<a href=""><i class="fab fa-vk"></i></a>
+				<div class="col-10 col-lg-2 m-auto  socgrid">
+					<a href=""><i class="fab fa-tripadvisor"></i></a>
 					<a href=""><i class="fab fa-facebook-f"></i></a>
 					<a href=""><i class="fab fa-instagram"></i></a>
 				</div>
 			</div>
 			<div class="row mt-5">
-				<div class="col "><i class="far fa-copyright"></i> Bentley Hotel, 2018. All rights are reserved.</div>
+				<div class="col-10 rights"><i class="far fa-copyright"></i> Bentley Hotel, 2018. All rights are reserved.</div>
 			</div>
 		</div>
 	</footer>
-		</div></div>
 	<script src="assets/js/main.js"></script>
-<!--
+	<!--
 
 -->
 </body>
