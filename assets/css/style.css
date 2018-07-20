@@ -7542,6 +7542,12 @@ h4 {
     }
 }
 
+@media (max-width: 575px) {
+    .footer .logo {
+        padding-left: 0;
+    }
+}
+
 .bg_head_about {
     background-image: url(../i/bg_header_about.jpg);
     background-repeat: no-repeat;
